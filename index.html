@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <main class="d-flex flex-column align-items-center text">
+        <header class="m-3">
+            <h1 class="display-3">To do list</h1>
+        </header>
+        <ul id="ultasklist" class="d-hidden form-group">
+        </ul>
+        <div class="d-grid col-4 mb-2">
+            <input id="filterinput" type="text" class="p-1" placeholder="My new task...">
+        </div>
+        <div id="newtaskdiv" class="d-grid col-4 my-2">
+            <input id="newtaskinput" class="p-1" type="text" placeholder="My new task...">
+        </div>
+        <div class="d-grid col-4 m-2">
+            <button id="btnnewtask" class="btn btn-primary p-3">Add a new task</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

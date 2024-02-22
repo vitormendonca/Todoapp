@@ -1,0 +1,13 @@
+ul {
+    list-style-type: none;
+}
+
+li{
+    font-size: 22px;
+}
+
+
+#newtaskdiv{
+    padding: 15px;
+    background-color: rgb(64, 137, 233);
+}
